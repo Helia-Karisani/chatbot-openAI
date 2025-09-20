@@ -77,8 +77,8 @@ Type a question in the input box (e.g., *"What is the difference between a stack
 The chatbot will return an AI-generated answer powered by OpenAI.
 
 ## 📸 Demo
+![Chatbot UI Screenshot](chatbot-openAI/chatDemo.png)
 
-![Chatbot UI Screenshot](public/chat.png)
 
 
 ## 🛠 Technologies Used
