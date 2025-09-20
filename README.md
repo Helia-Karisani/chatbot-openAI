@@ -80,12 +80,6 @@ The chatbot will return an AI-generated answer powered by OpenAI.
 
 ![Chatbot UI Screenshot](public/chat.png)
 
-## ⚡ Example Questions
-
-* What is Agile methodology?
-* What is the difference between a compiler and an interpreter?
-* What is the difference between a stack and a queue?
-* What is the difference between a linked list and an array?
 
 ## 🛠 Technologies Used
 
