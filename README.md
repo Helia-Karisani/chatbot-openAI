@@ -1,9 +1,9 @@
-# Software Development Chatbot 🤖 Using OpenAI API
+# Software Development Chatbot Using OpenAI API
 
 A simple web-based chatbot that answers software development–related questions using the OpenAI API.
 Built with **Node.js**, **Express.js**, and a lightweight **HTML/CSS/JavaScript** front end.
 
-## ✨ Features
+## Features
 
 * Interactive chat interface built with HTML/CSS/JS.
 * Backend powered by Express.js to handle API requests.
@@ -11,7 +11,7 @@ Built with **Node.js**, **Express.js**, and a lightweight **HTML/CSS/JavaScript*
 * Clean and minimal UI with a custom logo.
 * Ready-to-run locally with your own API key.
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 software-dev-chatbot/
@@ -28,7 +28,7 @@ software-dev-chatbot/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone this repository
 
@@ -69,25 +69,25 @@ node server.js
 
 ### 5. Open the app
 
-Navigate to [http://localhost:3000](http://localhost:3000) in your browser. 🎉
+Navigate to [http://localhost:3000](http://localhost:3000) in your browser. 
 
-## 🧑‍💻 Usage
+## Usage
 
 Type a question in the input box (e.g., *"What is the difference between a stack and a queue?"*) and press **Send**.
 The chatbot will return an AI-generated answer powered by OpenAI.
 
-## 📸 Demo
+## Demo
 ![Chatbot UI Screenshot](chatDemo.png)
 
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * **Node.js** – server-side JavaScript runtime
 * **Express.js** – backend web framework
 * **OpenAI API** – natural language model for chatbot responses
 * **HTML, CSS, JavaScript** – frontend UI
 
-## 📌 Notes
+## Notes
 
 * In this GitHub version, you’ll need to supply your own OpenAI API key.
 * The project is intended for educational purposes and to demonstrate how to integrate AI into web applications.
