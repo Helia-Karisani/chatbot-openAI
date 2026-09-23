@@ -1,20 +1,20 @@
 # Software Development Chatbot Using OpenAI API
 
-A simple web-based chatbot that answers software development–related questions using the OpenAI API.
+A simple web-based chatbot that answers software development questions using the OpenAI API.
 Built with **Node.js**, **Express.js**, and a lightweight **HTML/CSS/JavaScript** front end.
 
 ## Features
 
-* Interactive chat interface built with HTML/CSS/JS.
-* Backend powered by Express.js to handle API requests.
-* Integration with OpenAI’s GPT model for natural responses.
-* Clean and minimal UI with a custom logo.
-* Ready-to-run locally with your own API key.
+* Chat interface built with HTML/CSS/JS.
+* Express.js backend that handles API requests.
+* Integration with OpenAI’s GPT model for responses.
+* Minimal UI with a custom logo.
+* Runs locally with your own API key.
 
 ## Project Structure
 
 ```
-software-dev-chatbot/
+chatbot-openAI/
 │
 ├── public/                # Frontend files
 │   ├── index.html         # Chat UI
@@ -25,7 +25,7 @@ software-dev-chatbot/
 ├── openai.js              # OpenAI API wrapper
 ├── server.js              # Express.js server
 ├── package.json           # Project dependencies
-└── README.md              # Project documentation
+└── README.md
 ```
 
 ## Getting Started
@@ -33,20 +33,19 @@ software-dev-chatbot/
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/software-dev-chatbot.git
-cd software-dev-chatbot
+git clone https://github.com/Helia-Karisani/chatbot-openAI.git
+cd chatbot-openAI
 ```
 
 ### 2. Install dependencies
 
-Make sure you have [Node.js](https://nodejs.org/) installed.
-Then run:
+Make sure [Node.js](https://nodejs.org/) is installed, then run:
 
 ```bash
 npm install
 ```
 
-### 3. Set your OpenAI API Key
+### 3. Set your OpenAI API key
 
 Create a `.env` file in the root of the project and add:
 
@@ -69,27 +68,22 @@ node server.js
 
 ### 5. Open the app
 
-Navigate to [http://localhost:3000](http://localhost:3000) in your browser. 
+Go to [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Usage
 
 Type a question in the input box (e.g., *"What is the difference between a stack and a queue?"*) and press **Send**.
-The chatbot will return an AI-generated answer powered by OpenAI.
 
 ## Demo
 ![Chatbot UI Screenshot](chatDemo.png)
 
-
 ## Technologies Used
 
-* **Node.js** – server-side JavaScript runtime
-* **Express.js** – backend web framework
-* **OpenAI API** – natural language model for chatbot responses
-* **HTML, CSS, JavaScript** – frontend UI
+* **Node.js**
+* **Express.js**
+* **OpenAI API**
+* **HTML, CSS, JavaScript**
 
 ## Notes
 
-* In this GitHub version, you’ll need to supply your own OpenAI API key.
-* The project is intended for educational purposes and to demonstrate how to integrate AI into web applications.
-
-
+* You need to supply your own OpenAI API key.
